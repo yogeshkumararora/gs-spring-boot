@@ -11,6 +11,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Check Version before installation
+        run: node -v
+
       - name: Set up Node
         uses: actions/setup-node@v4
 
