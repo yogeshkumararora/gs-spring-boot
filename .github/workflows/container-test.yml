@@ -3,7 +3,7 @@ name: Container Test
 on:
   push:
     branches:
-      - main
+      - none #main
 
 jobs:
   test:
